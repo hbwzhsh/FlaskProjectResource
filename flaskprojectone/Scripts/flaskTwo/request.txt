@@ -1,0 +1,6 @@
+结合Mongodb做的一个博客，结构比较粗糙后期定会优化
+flask
+flask-script
+WTForms
+mongoengine   
+flask_mongoengine

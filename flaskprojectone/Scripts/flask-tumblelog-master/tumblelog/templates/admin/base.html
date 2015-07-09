@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{%- block topbar -%}
+   <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+    <div class="navbar-header">
+           <a href="{{ url_for('admin.index') }}" class="navbar-brand">My Tumblelog Admin</a>
+     </div>
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="menu">
+           <a href="{{ url_for("admin.create") }}" class="btn btn-primary">Create new post</a>
+        </li>
+      </ul>
+
+
+</div>
+    </div>
+
+{%- endblock -%}
+
+{% block js_footer %}
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+
+{% endblock %}
